@@ -1,0 +1,6 @@
+Please install the following:
+!pip install tensorflow==2.10
+!pip install ibm_watson
+!pip install opencv-python matplotlib imageio gdown
+!pip install ibm-watson
+!pip install ibm-cloud-sdk-core

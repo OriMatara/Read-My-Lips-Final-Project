@@ -6,21 +6,44 @@ LipNet is a project aimed at revolutionizing communication for individuals with 
 
 ## Table of Contents
 
-- [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Training](#training)
 - [Results](#results)
 - [Dependencies](#dependencies)
 - [Acknowledgments](#acknowledgments)
 
-## Installation
+## Usage
 
-1. **Clone the Repository:**
+1. **Prepare Your Video Data  for Lip Reading.**
 
-   ```bash
-   git clone https://github.com/YourUsername/LipNet.git
-   cd LipNet
+2. **Run Lip Reading and Speech Synthesis.**
 
-1. Install Dependencies:
-   pip install -r requirements.txt
+3. **Evaluate the Results.**
+
+## Project Structure
+
+- `code/`: Main codebase for lip reading and speech synthesis.
+  - `lip_reading.py`: Lip reading model implementation.
+  - `speech_synthesis.py`: Text-to-Speech synthesis.
+- `data/`: Dataset and relevant data.
+- `models/`: Trained model storage.
+- `results/`: Folder for evaluation results.
+- `notebooks/`: Jupyter notebooks for exploration and analysis.
+
+## Results
+
+### Character Error Rate (CER): 7%
+### Word Error Rate (WER): 12%
+
+## Dependencies
+
+- TensorFlow 2.10
+- IBM Watson Text-to-Speech
+- Other dependencies listed in `requirements.txt`
+
+## Acknowledgments
+
+- Special thanks to [IBM Watson](https://www.ibm.com/watson) for providing Text-to-Speech services.
+- The dataset used in this project is based on the GRID dataset.
+
+Feel free to contribute or report issues!

@@ -2,7 +2,7 @@
 
 ## Overview
 
-LipNet is a project aimed at revolutionizing communication for individuals with hearing impairments, deafness, and speech challenges. Leveraging cutting-edge machine learning and computer vision techniques, this system interprets the lips movement of a person from video inputs, converts it to text, and generates lifelike speech using advanced Text-to-Speech (TTS) technology.
+Read My Lips is a project aimed at revolutionizing communication for individuals with hearing impairments, deafness, and speech challenges. Leveraging cutting-edge machine learning and computer vision techniques, this system interprets the lips movement of a person from video inputs, converts it to text, and generates lifelike speech using advanced Text-to-Speech (TTS) technology.
 
 ## Table of Contents
 
